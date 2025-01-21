@@ -3,11 +3,9 @@
 }
 
 body {
-    height: 980px;
-    overflow-y: auto;
     border: 1px;
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 5vw;
     padding: 20px;
     background-color:rgb(230, 190, 143);
     background-size: cover;
@@ -19,7 +17,7 @@ header {
     flex-direction: column;
     background-color:rgb(236, 236, 214);
     background-image: url("drawing.png");
-    background-size:40vw;
+    background-size:30vw;
     background-position:right;
     background-repeat: no-repeat;
     padding: 5vw;
@@ -27,12 +25,12 @@ header {
 }
 
 header h1 {
-    font-size:3vw;
+    font-size:2vw;
     color: rgb(192, 48, 192);
 }
 
 #name {
-    font-size: 7vw;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bold;
     -webkit-text-fill-color: transparent;
