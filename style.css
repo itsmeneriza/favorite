@@ -12,6 +12,7 @@ body {
     background-position: center;
 }
 
+/* Header */
 header {
     display:flex;
     flex-direction: column;
@@ -36,4 +37,35 @@ header h1 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #413d09; 
+}
+
+/*main*/
+ 
+main {
+    padding: 5vw;
+}
+.master-oogway {
+    padding: 4vw 5vw;
+    background-color: rgb(44, 27, 27);
+    background-image: url("masteroogway.png");
+    background-size:contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.master-oogway div{
+    padding: 0 5vw;
+    color: white;
+}
+
+.film-gallery{
+    padding: 1vw 5vw;
+    background-color: white;
+}
+
+.gallery-container{
+    
+
 }
