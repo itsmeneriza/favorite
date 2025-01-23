@@ -1,5 +1,5 @@
 * {
-
+    margin: 10px;
 }
 
 body {
@@ -26,12 +26,12 @@ header {
 }
 
 header h1 {
-    font-size:2vw;
+    font-size:2.5vw;
     color: rgb(192, 48, 192);
 }
 
 #name {
-    font-size: 50px;
+    font-size: 3.5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bold;
     -webkit-text-fill-color: transparent;
@@ -39,13 +39,13 @@ header h1 {
     -webkit-text-stroke-color: #413d09; 
 }
 
-/*main*/
+/*Main*/
  
 main {
-    padding: 5vw;
+    padding: 2vw;
 }
 .master-oogway {
-    padding: 4vw 5vw;
+    padding: 3vw 4vw;
     background-color: rgb(44, 27, 27);
     background-image: url("masteroogway.png");
     background-size:contain;
@@ -56,16 +56,70 @@ main {
 }
 
 .master-oogway div{
-    padding: 0 5vw;
+    padding: 0 2vw;
     color: white;
 }
 
 .film-gallery{
-    padding: 1vw 5vw;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 1vw 2vw;
     background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content:center;
+    text-align: left;
 }
 
-.gallery-container{
-    
+.gallery-container {
+    display: flex;
+    flex-direction:column;
+    width: 25vw;
+    height: auto;
+    padding: 1vw;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+.gallery-container h3 {
+    font-size: 110%;
+}
+
+.gallery-container img{
+    width: 25vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 767px){
+    body {
+        margin: 0;
+    }
+
+
+    header h1 {
+        font-size: 4vw;
+    }
+
+    #name {
+        font-size: 6vw;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .master-oogway div{
+        padding: 0 1vw;
+        font-size: 2.5vw;
+    }
+
+    .gallery-container{
+        width: 80%;
+    }
+
+    .gallery-container img{
+        width: 100%;
+        height: auto;
+    }
 
 }
